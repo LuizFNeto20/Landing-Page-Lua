@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    Height: 100vh;
+    background: linear-gradient(136.31deg, #0C0F07 14.16%, #1F102B 53.39%, #23193E 82.63%);
+    background-repeat: no-repeat;
+    font-family: "Baloo Bhaina 2";
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    width: 50%;
+    margin: 0 0 0 20%;
+    list-style-type: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: end;
+}
+
+header ul li {
+    margin-right: 3%;
+}
+
+header ul li:nth-child(3) {
+    margin-right: 0;
+}
+
+section {
+    margin: 10% auto 0;
+    width: 90%;
+
+
+    display: flex;
+}
+
+section div h1 {
+    color: rgba(159, 127, 219, 0.8);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section form input {
+    margin: 10% auto 0;
+    background: #9F7FDB;
+    border-radius: 10px;
+    width: 408.2px;
+    height: 61.23px;
+    color: #fff;
+    padding-left: 10%;
+}
+
+input::placeholder {
+    color: #fff;
+    font-family: "Baloo Bhaina 2";
+}
+
+section form div {
+    margin: 10% 0 0 0;
+
+    display: flex;
+}
+
+section form button {
+    Width: 230px;
+    Height: 84px;
+    padding: 18px 28px 18px 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    border-radius: 8px;
+    font-family: "Baloo Bhaina 2";
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    background-color: #7834F3;
+    margin-right: 10%;
+}
+
+.btn2 {
+    background-color: #9F7FDB;
+}
+
+section img {
+    margin-left: 5%;
+}
